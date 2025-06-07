@@ -2,10 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ajio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ajio.com | Shop Online the Latest Fashion in apparels brands in India | Reliance Ajio.com</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+
     
+    <div class="header-container">
+        <header>
+            <div class="signin-customer-care">
+                <ul>
+                    <li>
+                        <a href="#" id="username"></a>
+                     </li>
+                    <li onclick="showBox()">
+                        <p id="signin" >Sign In / Join AJIO</p>
+                     </li>
+                    <li onclick="signOut()">
+                        <p id="signout" >Sign Out</p>
+                     </li>
+                    <li>
+                        <a href="#">Customer Care</a>
+                     </li>
+                 </ul>
+            </div>
+            <div class="logo-box">
+                <a href="index.html">
+                    <img class="logo-img" src="images/Ajio-Logo.svg" alt="">
+                </a>
+            </div>
+
+            <div class="nav">
+                <div class="left-nav">
+                    <ul>
+                        <!-- Men Category -->
+                        <li onmouseover="showMenu('menItems') " onmouseout="hideMenu('menItems')">
+                            <a href="men.html">MEN</a>
+                            <div class="hover-menu-container" id="menItems">
+                                <div>
+                                    <div>
+                                        <span>Shop By:</span>
+                                    </div>
+                                    <div class="cat-dropdown">
+                                        <a href="#">CATEGORIES</a>
+                                        <div class="content-box" id="catContent">
+                                            <div>
+                                                <ul><a href="product_page.html" target="blank"> New In: Collections </a></ul>
+                                                <ul><a href="#" onclick="setProducts('men','Clothes for Men')"> New In: Clothing </a></ul>
+                                                <ul><a href="#" onclick="setProducts('shoes','Footwear for  men')"> New In: Footwear & Accs </a></ul>
+                                                <ul><a href="#" onclick="setProducts('men','International brands')"> International Brands </a></ul>
+                                                <ul><a href="#" onclick="setProducts('shirts','Western Wear')"> Western Wear
+                                                    <li> <a href="product_page.html" target="blank">Jackets & Coats </a></li>
+                                                    <li> <a href="#"  href="#" onclick="setProducts('jeans','Jeans')">Jeans </a></li>
+                                                    <li> <a href="#" href="#" onclick="setProducts('shirts','Shirts')">Shirts </a></li>
+                                                    <li> <a href="#" onclick="setProducts('jeans','Jeans')">Shorts & 3/4ths </a></li>
+                                                    <li> <a href="#" href="#" onclick="setProducts('shirts','T-shirts/Shirts')">Sweatshirts & Hoodies </a></li>
+                                                    <li> <a href="#" href="#" onclick="setProducts('jeans','Jeans')">Track Pants </a></li>
+                                                    <li> <a href="#" href="#" onclick="setProducts('jeans','Jeans')">Trousers & Pants </a></li>
+                                                    <li> <a href="#" href="#" onclick="setProducts('shirts','T-shirts/Shirts')">T-Shirts </a></li>
+                                                 </a></ul>
+                                                <ul><a href="#" onclick="setProducts('kurtas','Kurtas')"> Ethnic & Festive
+                                                    <li> <a href="#" onclick="setProducts('kurtas','Kurtas')">Kurtas </a></li>
+                                                    <li> <a href="#" onclick="setProducts('kurtas','Kurtas')">Nehru Jackets </a></li>
+                                                    <li> <a href="#" href="#" href="#" onclick="setProducts('shirts','Shirts')">Shirts </a></li>
+                                                 </a></ul>
+                                            </div>
+                                             </div>
+</footer>
+
 </body>
+
 </html>
